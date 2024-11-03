@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</title>Knhan's web</title>
+    <title>Knhan's web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Thêm font chữ -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Lobster', cursive;
             margin: 0;
             padding: 0;
             background: url('8e999fe6ac0fe0a8d7fc10a8d4ea6feb.gif') no-repeat center center fixed;
@@ -59,28 +60,54 @@
             border: 2px solid white;
             border-radius: 50%;
         }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            background: url('blonde-girls-pretty-image-of-an-anime-girl-in-a-city_9581123.jpg!bw700.jpg') no-repeat center center;
+            background-size: cover;
+            border: 4px solid white;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .rainbow-text {
+            font-size: 2em;
+            font-weight: bold;
+            animation: rainbow 1s infinite linear;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00ff, 0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
+        }
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Chào các con vợ</h1>
+        <h1>Ohayo</h1>
     </header>
     <nav>
         <a href="#">Trang chủ</a>
     </nav>
     <div class="container">
-        <h2></h2>
+        <h2 class="rainbow-text">Chào các con vợ</h2> <!-- Hiệu ứng cầu vồng và nhấp nháy -->
         <p>Chào các em.</p>
         <h3>Anh ở đây</h3>
+        <div class="profile-pic"></div> <!-- Ảnh mặt của bạn -->
         <div class="social-links">
             <a href="https://zalo.me/0397620053" target="_blank">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384083.svg" alt="Zalo"> Zalo
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Zalo_logo.png/800px-Zalo_logo.png" alt="Zalo"> Zalo
             </a>
             <a href="https://www.tiktok.com/@knhan2008" target="_blank">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/733/733579.svg" alt="TikTok"> TikTok
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Tiktok_logo.svg/800px-Tiktok_logo.svg.png" alt="TikTok"> TikTok
             </a>
             <a href="https://www.facebook.com/profile.php?id=100085444635589&mibextid=ZbWKwL" target="_blank">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/733/733547.svg" alt="Facebook"> Facebook
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"> Facebook
             </a>
         </div>
         <audio controls autoplay>
